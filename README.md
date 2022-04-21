@@ -22,7 +22,7 @@ abcd -> 1234
 fa12 -> 6112
 ```
 
-Please branch out of `master` and create a PR when you are done.
+Please fork out of `master` and create a PR when you are done.
 
 ## Requirements
 - At least PHP 7.4 syntax is required (PHP 8 is preferred)
