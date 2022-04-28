@@ -36,6 +36,7 @@ services:
       - '8110:80'
     restart: always
     volumes: 
+      - './apache/vhost.conf:/etc/apache2/sites-enabled/000-default.conf'
       - './:/var/www/html'
     networks:
       - gcmtest
