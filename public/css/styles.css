@@ -1,0 +1,25 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    height: auto;
+    background-color: rgba(229, 238, 234, 0.315);
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(10, 12, 15);
+    padding-top: 15px;
+}
+
+.box:nth-child(odd) {
+    background: rgba(198, 198, 238, 0.332);
+}
+
+.box:nth-child(even) {
+    background: rgba(198, 228, 198, 0.311);
+}
+    
+.box {
+    padding: 5px 15px;
+}
